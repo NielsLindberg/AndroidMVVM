@@ -3,7 +3,7 @@ package com.itconsult.nlp.mvvm;
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;
 
-@Entity (tableName = "note_table")
+@Entity(tableName = "note_table")
 public class Note {
 
     @PrimaryKey(autoGenerate = true)
